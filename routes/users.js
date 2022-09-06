@@ -42,3 +42,24 @@ router.post('/', async (req, res) => {
         res.send('Err: ' + err)
     }
 })
+
+
+
+router.put('/:id', async (req, res) => {
+    try {
+        const user = await Users.findById(req.params.id)
+        user.firstName = req.body.firstName
+        user.sureName = req.body.sureName
+        user.gender = req.body.gender
+        user.dateOfBirth = req.body.dateOfBirth
+        user.password = req.body.password
+        user.phoneNumber = req.body.phoneNumber
+        user.email = req.body.email
+
+        const response = await user.save()
+        res.json(response)
+
+    } catch (err) {
+        res.send('Err : ' + err)
+    }
+})
