@@ -1,0 +1,28 @@
+{
+  "name": "express-mongodb",
+  "version": "1.0.0",
+  "description": "facebook backend clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeewanthamadu/express-ass_03.git"
+  },
+  "keywords": [
+    "expressJS"
+  ],
+  "author": "jeewantha madushan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeewanthamadu/express-ass_03/issues"
+  },
+  "homepage": "https://github.com/jeewanthamadu/express-ass_03#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19"
+  }
+}
