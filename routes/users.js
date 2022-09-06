@@ -63,3 +63,13 @@ router.put('/:id', async (req, res) => {
         res.send('Err : ' + err)
     }
 })
+
+router.delete('/:id', async (req, res) => {
+    try {
+        const user = await Users.findById(req.params.id)
+        const response = await user.remove()
+        res.json(response)
+    } catch (err) {
+        res.send('Err : ' + err)
+    }
+})
