@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "bea47722-cfb8-4b40-b468-9a9024db8325",
+		"_postman_id": "2680ce95-2b86-4ea1-b468-7d6d3052fc42",
 		"name": "Facebook Clone",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "18179641"
+		"_exporter_id": "18073671"
 	},
 	"item": [
 		{
@@ -55,7 +55,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Praveen\",\r\n    \"sureName\": \"Srikantha\",\r\n    \"gender\": \"Male\",\r\n    \"dateOfBirth\": \"2000-09-07\",\r\n    \"password\": \"12456789\",\r\n    \"phoneNumber\": \"0767059199\",\r\n    \"email\": \"helitha.sri1@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"firstName\": \"yasendra\",\r\n    \"sureName\": \"madu\",\r\n    \"gender\": \"Male\",\r\n    \"dateOfBirth\": \"2000-12-07\",\r\n    \"password\": \"12456789\",\r\n    \"phoneNumber\": \"0767059199\",\r\n    \"email\": \"jeewa2001@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -83,7 +83,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Kusal\",\r\n    \"sureName\": \"Karunarathna\",\r\n    \"gender\": \"Male\",\r\n    \"dateOfBirth\": \"2000-09-07\",\r\n    \"password\": \"124\",\r\n    \"phoneNumber\": \"0767059199\",\r\n    \"email\": \"kusal2000@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"firstName\": \"lakmal\",\r\n    \"sureName\": \"modaya\",\r\n    \"gender\": \"Male\",\r\n    \"dateOfBirth\": \"2000-01-07\",\r\n    \"password\": \"124\",\r\n    \"phoneNumber\": \"076125999\",\r\n    \"email\": \"lakmal0@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -91,7 +91,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/users/63050a89612ea856724474e3",
+							"raw": "http://localhost:4000/users/63179c3b85cb4ca50c7bb4d3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -99,7 +99,7 @@
 							"port": "4000",
 							"path": [
 								"users",
-								"63050a89612ea856724474e3"
+								"63179c3b85cb4ca50c7bb4d3"
 							]
 						}
 					},
@@ -164,7 +164,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/post/6305c2ee5d4a3355c9e985c7",
+							"raw": "http://localhost:4000/post/6317977902cf825539542ee6",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -172,7 +172,7 @@
 							"port": "4000",
 							"path": [
 								"post",
-								"6305c2ee5d4a3355c9e985c7"
+								"6317977902cf825539542ee6"
 							]
 						}
 					},
@@ -185,7 +185,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"userId\": \"63050927d536b811144e7781\",\r\n    \"date\": \"2022-08-24\",\r\n    \"time\": \"11:47 AM\",\r\n    \"title\": \"How to Write Hello World in java\",\r\n    \"body\": \"sout('Hello World')\"\r\n}",
+							"raw": "{\r\n    \"userId\": \"64050927d536b811144e7782\",\r\n    \"date\": \"2022-08-24\",\r\n    \"time\": \"11:47 AM\",\r\n    \"title\": \"buy\",\r\n    \"body\": \"sout('Hello')\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -213,7 +213,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"userId\": \"63050927d536b811144e7781\",\r\n    \"date\": \"2022-09-07\",\r\n    \"time\": \"12:47 AM\",\r\n    \"title\": \"How to Write Hello World in java\",\r\n    \"body\": \"sout('Hello World')\"\r\n}",
+							"raw": "{\r\n    \"userId\": \"63050927d536b811144e7781\",\r\n    \"date\": \"2022-09-07\",\r\n    \"time\": \"12:47 AM\",\r\n    \"title\": \"update\",\r\n    \"body\": \"sout('Hello World')\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -221,7 +221,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/post/6305c2ee5d4a3355c9e985c7",
+							"raw": "http://localhost:4000/post/6317977902cf825539542ee2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -229,7 +229,7 @@
 							"port": "4000",
 							"path": [
 								"post",
-								"6305c2ee5d4a3355c9e985c7"
+								"6317977902cf825539542ee2"
 							]
 						}
 					},
@@ -250,7 +250,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/post/6305c2ee5d4a3355c9e985c7",
+							"raw": "http://localhost:4000/post/6317985002cf825539542eed",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -258,7 +258,7 @@
 							"port": "4000",
 							"path": [
 								"post",
-								"6305c2ee5d4a3355c9e985c7"
+								"6317985002cf825539542eed"
 							]
 						}
 					},
@@ -276,7 +276,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"helitha.sri1@gmail.com\",\r\n    \"password\":\"12456789\"\r\n}",
+							"raw": "{\r\n    \"email\":\"lakmal0@gmail.com\",\r\n    \"password\":\"124\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -284,7 +284,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/users/auth/login",
+							"raw": "http://localhost:4000/users/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -292,7 +292,6 @@
 							"port": "4000",
 							"path": [
 								"users",
-								"auth",
 								"login"
 							]
 						}
